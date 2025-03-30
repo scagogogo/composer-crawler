@@ -3,8 +3,9 @@ package repository
 import (
 	"context"
 	"fmt"
-	"github.com/scagogogo/composer-crawler/pkg/models"
 	"time"
+
+	"github.com/scagogogo/composer-crawler/pkg/response"
 )
 
 // List security advisories

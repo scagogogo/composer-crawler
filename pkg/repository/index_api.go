@@ -2,8 +2,9 @@ package repository
 
 import (
 	"context"
-	"github.com/crawler-go-go-go/go-requests"
 	"os"
+
+	"github.com/crawler-go-go-go/go-requests"
 )
 
 // DownloadIndex 下载整个的索引文件
@@ -19,5 +20,5 @@ func DownloadIndexToFile(ctx context.Context, filepath string) error {
 	if err != nil {
 		return err
 	}
-	return os.WriteFile("", indexBytes, os.ModePerm)
+	return os.WriteFile(filepath, indexBytes, os.ModePerm)
 }
