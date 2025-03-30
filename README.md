@@ -24,7 +24,7 @@ $ go get github.com/scagogogo/composer-crawler
 </div>
 
 <p align="center">
-  <img src="https://i.imgur.com/CPvWNBO.png" alt="Composer Crawler Demo">
+  <img src="docs/assets/composer-crawler-demo.png" alt="Composer Crawler Demo">
 </p>
 
 ## 📋 目录
