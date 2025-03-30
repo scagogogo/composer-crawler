@@ -46,4 +46,4 @@ jobs:
           go build -o /dev/null ./examples/03_list_packages/main.go
           go build -o /dev/null ./examples/04_get_statistics/main.go
           go build -o /dev/null ./examples/05_security_advisories/main.go
-          echo "All examples compiled successfully!" 
+          echo "All examples compiled successfully!"
