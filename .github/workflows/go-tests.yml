@@ -1,5 +1,6 @@
 name: Go Tests and Examples
 
+# This workflow runs tests and verifies examples for the Composer Crawler project
 on:
   push:
     branches: [ main, master ]
